@@ -2,8 +2,7 @@ import RNFS from 'react-native-fs';
 import { inflate } from 'pako';
 import { Buffer } from 'buffer';
 
-// GitHub Releases/Pages’taki gerçek URL’ini yaz
-export const REMOTE_URL = 'https://YOUR_USERNAME.github.io/YOUR_REPO/recipes.jsonl.gz';
+export const REMOTE_URL ='https://github.com/mustafa-alperen-yilmaz/FoodGenerator/releases/latest/download/recipes.jsonl.gz';
 
 const PATH_GZ = `${RNFS.DocumentDirectoryPath}/recipes.jsonl.gz`;
 const PATH_JSONL = `${RNFS.DocumentDirectoryPath}/recipes.jsonl`;
